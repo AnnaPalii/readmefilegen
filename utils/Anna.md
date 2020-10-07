@@ -1,9 +1,8 @@
-function generateMarkdown (data) {
-    return `# ${data.title}
-    #### Welcome to ${data.name}'s page!
+# Project
+    #### Welcome to Anna's page!
 
     ## Description
-    ${data.description}
+    Application for README file generation. 
 
     ## Table of Contents 
     * [Installation](#installation)
@@ -15,16 +14,16 @@ function generateMarkdown (data) {
 
 
     ##Installation
-    ${data.installation}
+    Follow link provided on web-site.
 
     ##Usage
-    ${data.usage}
+    125 mgb
 
     ##Contributing
-    ${data.contribution}
+    not sure
 
     ##Tests
-    ${data.test} 
+    test 
 
     ##License 
 
@@ -32,6 +31,4 @@ function generateMarkdown (data) {
 
     
 
-    `
-}
-module.exports = generateMarkdown;
+    
